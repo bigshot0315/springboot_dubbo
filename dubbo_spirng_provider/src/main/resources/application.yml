@@ -1,0 +1,10 @@
+# 在这里编写springboot的配置信息
+server:
+  #端口号
+  port: 8080
+dubbo:
+  application:
+    #应用名称
+    name: dubbo-provider
+  registry:
+    address: zookeeper://127.0.0.1:2181
